@@ -1,0 +1,70 @@
+<!--
+ * @Overview     : Do not edit
+ * @Author       : Zi Jun
+ * @Email        : zijun2030@163.com
+ * @Date         : 2021-12-05 10:10:53
+ * @LastEditTime : 2021-12-12 22:19:48
+ * @LastEditors  : Zi Jun
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simpleflow</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!-- docsify-darklight-theme styles-->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
+    title="docsify-darklight-theme">
+  <link rel="stylesheet" href="./custom.css">
+</head>
+
+<body>
+  <div id="app">Loading ...</div>
+  <script>
+    window.$docsify = {
+      name: 'Simpleflow',                               // 文档标题，会显示在侧边栏顶部
+      nameLink: "#/",                                   // 点击文档标题后跳转的链接地址
+      logo: "/_media/logo.svg",                         // 在侧边栏中出现的网站图标顶部
+      repo: 'https://gitee.com/zijun2030/simple-flow',  // 仓库地址
+      loadSidebar: true,                                // 加载自定义侧边栏
+      subMaxLevel: 3,                                   // 设置生成目录的最大层级
+      maxLevel: 4,                                      // 配置最大支持渲染的标题层级
+      loadNavbar: true,                                 // 开启顶部导航栏
+      coverpage: true,                                  // 开启封面
+      auto2top: true,                                   // 切换页面后是否自动跳转到页面
+      autoHeader: true,                                 // 根据 _sidebar.md 的内容自动
+      formatUpdated: "{YYYY}/{MM}/{DD} {HH}:{mm}",      // 格式化时间
+      mergeNavbar: true,                                // 小屏设备下合并导航栏到侧边栏
+      darklightTheme: {
+        defaultTheme: 'light',
+        bodyFontSize: '16px'
+      },
+      search: {
+        maxAge: 86400000,
+        paths: "auto",
+        placeholder: "搜索",
+        noData: "无数据",
+        depth: 4,
+        hideOtherSidebarContent: false,
+      },
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-jsx.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-git.min.js"></script>
+</body>
+
+</html>

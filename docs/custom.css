@@ -1,0 +1,47 @@
+.markdown-section * {
+  line-height: 1.4rem !important;
+}
+
+.docsify-pagination-container * {
+  line-height: 1.6rem !important;
+}
+
+.markdown-section p {
+  margin: .6rem 0 !important;
+}
+
+.markdown-section h4 {
+  margin: 1.4rem 0 .6rem;
+}
+
+.app-name .app-name-link img {
+  width: 40px;
+  height: 40px;
+}
+
+.sidebar-nav>h1 {
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  :root {
+    --bodyFontSize: 14px !important;
+  }
+
+  .markdown-section h1 {
+    padding-top: 2rem !important;
+    font-size: 1.3rem;
+  }
+
+  .markdown-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .markdown-section h3 {
+    font-size: 1.1rem;
+  }
+
+  .markdown-section h4 {
+    font-size: 1.0rem;
+  }
+}

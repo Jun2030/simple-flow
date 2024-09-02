@@ -1,0 +1,23 @@
+{
+  "name": "simple-flow",
+  "version": "0.1.2",
+  "author": {
+    "name": "Zijun",
+    "url": "https://gitee.com/zijun2030/"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "releaselog": "standard-version"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "devmoji": "^2.3.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2",
+    "standard-version": "^9.3.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
