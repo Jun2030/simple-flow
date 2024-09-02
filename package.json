@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "author": {
     "name": "Zijun",
-    "url": "https://gitee.com/zijun2030/"
+    "url": "https://jun2030.github.io/"
   },
   "scripts": {
     "prepare": "husky install",

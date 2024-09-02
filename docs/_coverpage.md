@@ -1,6 +1,6 @@
 ![logo](_media/logo.svg)
 
-# simple-flow <small>0.1.0</small>
+# simple-flow <small>0.2.0</small>
 
 > 代码流程、规范文档
 
