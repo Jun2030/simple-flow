@@ -1,4 +1,14 @@
-### 01、Eslint配置教程
+### 01、推荐使用插件
+Eslint-config: [`@2030/eslint-config`](https://www.npmjs.com/package/@2030/eslint-config)
+- 使用单引号，无分号
+- 自动修复格式 -- 无需`prettier`
+- 合理的默认值,一行配置接入
+- 多语言支持，`TypeScript、JSX、Vue、JSON、YAML、Toml、Markdown`
+- 容易定制
+
+具体安装和使用可见NPM链接使用说明和教程。
+
+### ~~01、Eslint配置教程~~
 
 过程不表，所需插件大致如下(`ts`项目)：
 
@@ -59,7 +69,7 @@
 
 
 
-### 02、Eslint风格规则
+### ~~02、Eslint风格规则~~
 
 ```javascript
 // eslint.js

@@ -12,7 +12,7 @@
 Commit message 一般包括三部分：标题(Header) + 正文(body) + 页脚(Footer)
 
 ```bash
-[修改类型][(影响范围)]: [标题]
+[(emoji)][修改类型][(影响范围)]: [标题]
 
 [正文]
 
@@ -24,18 +24,28 @@ Commit message 一般包括三部分：标题(Header) + 正文(body) + 页脚(Fo
 1. **标题(Header):** `type(scope): subject`
 
    * `type`: 用于说明commit的类型，规定如下几种：
-     * `feat`: 新增功能(feature)
-     * `fix`: 修复bug
-     * `docs`: 修改文档(documentation)
-     * `style`: 调整代码格式，未修改代码逻辑（e.g.: 修改空格、格式化、缩进、分号、样式等）
-     * `types`: 接口声明相关
-     * `refactor`: 代码重构，没有添加新功能，也不是修复bug
-     * `test`: 测试相关
-     * `build`: 构建配置相关
+     * `init`: 初次提交
+     * `work`: 工作进行中
+     * `feat`: 添加新功能
+     * `fix`: 修复BUG
+     * `typos`: 修改错别字
+     * `style`: 改进项目结构/代码格式
+     * `docs`: 添加/更新文档
+     * `config`: 添加/修改配置文件
+     * `comments`: 添加/更新注释
+     * `rename`: 移动/重命名文件/路径
+     * `chore`: 添加/删除代码/文件
+     * `perf`: 优化性能
+     * `log`: 添加/更新日志
+     * `refactor`: 重构代码
+     * `test`: 添加/修改测试用例
+     * `build`: 构建/部署流程
+     * `release`: 发布新版本
+     * `i18n`: 国际化
      * `revert`: 回滚版本
-     * `perf`: 性能优化，提高性能的代码更改
      * `merge`: 分支合并
-     * `chore`: 对构建流程或辅助工具和依赖库（如文档生成，vconsole工具等）的更改
+     * `contributor`: 添加贡献者
+     * `types`: 类型声明或修改
      * `ci`: 持续集成
    * `scope`: 可选。用于说明commit影响的范围，内容不固定，例如：
      * `route`: 路由模块
@@ -59,8 +69,14 @@ Commit message 一般包括三部分：标题(Header) + 正文(body) + 页脚(Fo
    2. 关闭指定的Issue号（也适用于关闭的bug号）
 
 
+### 03、推荐使用插件
+- Commitlint-config: [`@2030/commitlint-config`](https://www.npmjs.com/package/@2030/commitlint-config)
+- Commitlint-config(Emoji版): [`@2030/commitlint-config-emoji`](https://www.npmjs.com/package/@2030/commitlint-config-emoji)
 
-### 03、校验/格式工具
+具体安装和使用可见NPM链接使用说明和教程。
+
+
+### ~~03、校验/格式工具~~
 
 * `commitlint`: 校验commit是否符合规范
 * `husky`: git钩子
@@ -189,7 +205,7 @@ feat(commit): 新增提交规范
    # commit-msg
    #!/bin/sh
    . "$(dirname "$0")/_/husky.sh"
-   
+
    # 提交记录检查
    npx --no-install commitlint --edit $1
    # 根据提交类型自动添加gitmoji
@@ -210,6 +226,4 @@ feat(commit): 新增提交规范
      ],
    };
    ```
-
-   
 

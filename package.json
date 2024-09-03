@@ -1,9 +1,9 @@
 {
   "name": "simple-flow",
-  "version": "0.1.2",
+  "version": "0.3.0",
   "author": {
-    "name": "Zijun",
-    "url": "https://jun2030.github.io/"
+    "name": "DaiJun",
+    "url": "https://jun2030.github.io/simple-flow/"
   },
   "scripts": {
     "prepare": "husky install",

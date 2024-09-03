@@ -31,15 +31,15 @@
 8. 函数名均采用驼峰命名法，并且前缀为动词。
 
    e.g.: `function getListData() {}`
-   
+
    * 常用动词推荐：`can`， `is`, `has`, `get`, `set`, `load`, `open`, `close`, `jump`, `computed`
    * 触发为事件型动词推荐：`on`, `handle`
-   
+
 9. 函数参数，路由参数全部采用驼峰命名法。
 
    e.g.: `userId`
-   
-   
+
+
 
 ### 02、注释规范
 
@@ -124,7 +124,7 @@
 
 
 
-### 06、Volar(>0.34.xx)升级教程
+### ~~06、Volar(>0.34.xx)升级教程~~ (安装Vue - Official)
 
 1. 安装（升级）插件最新版（`Vue Language Features (Volar)`）
 
@@ -175,7 +175,6 @@
       }
       ```
 
-   
 
 4. 解决新版本 `template` 中html一行过长自动格式化问题，（这里沿用之前 `eslint` + `volar` 的格式规范，当然也可使用 `prettier` 插件处理 ）
 
@@ -186,7 +185,7 @@
       ```javascript
       // volar.config.js
       const prettyhtml = require('@volar-plugins/prettyhtml');
-      
+
       module.exports = {
         plugins: [
           prettyhtml({ printWidth: 100 }),

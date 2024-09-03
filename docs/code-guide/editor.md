@@ -13,17 +13,17 @@
 root = true
 
 [*]
-charset = utf-8
+indent_style = space
+indent_size = 2
 end_of_line = lf
-insert_final_newline = false
-indent_style = space
-indent_size = 2
-
-[*.{yml,yaml,json}]
-indent_style = space
-indent_size = 2
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
 
 [*.md]
 trim_trailing_whitespace = false
+
+[*.{js,jsx,ts,tsx}]
+insert_final_newline = false
 ```
 

@@ -4,7 +4,7 @@
 
 ## 🌱 更新日志：
 
-- 🏆 更新日志请查看 [更新日志](https://jun2030.github.io/simple-flow/blob/master/CHANGELOG.md)
+- 🏆 更新日志请查看 [更新日志](https://github.com/Jun2030/simple-flow/blob/master/CHANGELOG.md)
 
 
 
